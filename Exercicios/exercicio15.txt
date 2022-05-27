@@ -1,0 +1,25 @@
+Exercicio 15
+
+Algoritmo "tabuada informada pelo usuário"
+
+//Programa que exibe  a tabuada informado pelo usuário
+
+Var
+
+i,num :inteiro
+
+Inicio
+
+   Escreval ("informe um número para fazer a tabuada?")
+   leia (num)
+      i<-0
+      enquanto i<11 faça
+   escreval ("O resultado da sua tabuada para o número escolhido foi:",i," x",num," =",i*num)
+
+      i<-i+1
+
+   fimenquanto
+
+Fimalgoritmo
+
+   

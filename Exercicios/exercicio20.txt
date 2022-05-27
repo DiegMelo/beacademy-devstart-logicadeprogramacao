@@ -1,0 +1,41 @@
+Exercicio 20
+
+Algoritmo "Total pessoas jovens,adultas,idosas"
+
+// Pograma que calcula o total de pessoas de menor , adulto e idoso
+
+Var
+idade,i18,i30,i60 :inteiro
+nome :caractere
+
+Inicio
+
+   escreval("informe seu nome:")
+   leia(nome)
+   escreval("informe sua idade: (se quiser parar digite -99)")
+   leia(idade)
+     i18 <- 0
+     i30 <- 0
+     i60 <- 0
+     repita
+     se (idade < 18) entao
+        i18 <- i18+1
+     senao
+     se (idade>18) e (idade<=60) entao
+        i30 <- i30+1
+     senão
+        i60 <- i60+1
+     fimse
+     fimse
+        //escreval("informe seu nome:")
+        //leia(nome)
+        escreval("informe sua idade: (se quiser parar digite -99)")
+        leia(idade)
+     ate idade = -99
+        escreval("total de pessoas menores de idade é :",i18)
+        escreval("total de pessoas Adultas é :",i30)
+        escreval("total de pessoas Idosas é :",i60)
+     
+Fimalgoritmo
+
+   

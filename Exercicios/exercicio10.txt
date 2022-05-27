@@ -1,0 +1,57 @@
+Exercicio 10
+
+Algoritmo "Depósito,Saque ou transferência"
+
+// Programa que calcula o depósito ou saque ou tranferência do cliente
+
+Var
+
+banco,agencia,conta :caractere
+operacao :inteiro
+valor,saldo :real
+
+Inicio
+
+   escreval (" O Senhor(a) quer faze 1 - Depósito , 2 - Saque")
+   escreval("ou 3 - transferência?")
+     leia (operacao)
+   escreval("qual o seu saldo em conta?")
+       leia(saldo)
+
+     escolha operacao
+
+    caso 1
+      escreval (" Informe o valor de depósito ? ")
+      leia (valor)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo + valor):1:2)
+    caso 2
+      escreval (" Informe o valor de saque ? ")
+      leia (valor)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo - valor):1:2)
+    caso 3
+      escreval("Informe o Banco :")
+      leia (banco)
+      escreval("Informe a Agencia sem o digíto:")
+      leia (agencia)
+      escreval("Informe a Conta com o dígito:")
+      leia (conta)
+      escreval (" Informe o valor de transferência? ")
+      leia (valor)
+  // o banco a ser transferido os valores
+      escreval("Você ira tranferir o valor para o  banco = ", banco)
+      escreval("Agencia = "+ agencia + ", conta = ",conta)
+      escreval("Valor de transferencia foi de R$ ", valor:1:2)
+      escreval("Seu saldo é de R$ ",(saldo-valor):1:2)
+
+    outrocaso
+      escreval ("Escolha digitada da operação incorreta")
+      escreval ("digite 1- Deposito ou 2 - Saque ou 3 - Transferência")
+fimescolha
+
+Fimalgoritmo
+
+
+
+   

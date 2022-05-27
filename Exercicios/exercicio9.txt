@@ -1,0 +1,47 @@
+Exercicio 9
+
+Algoritmo "Area e Perimétro do Quadrado ou Triângulo"
+
+// programa que mostra o perimétro e a área do Triângulo ou Quadrado
+
+Var
+areaQuadrado,areaTriangulo,perimetroQuadrado,perimetroTriangulo :real
+l1,l2,l3 :real
+opcao :inteiro
+
+Inicio
+
+      escreval("por favor nos informe se você quer cacular um 1 - quadrado")
+      escreval("ou 2 - triângulo")
+      leia (opcao)
+
+ escolha opcao
+
+    caso 1
+      escreval("por favor nos informe um dos lados")
+      leia (l1)
+
+      areaQuadrado <- (l1*l1)
+      perimetroQuadrado <- (l1*4)
+
+      escreval ( "A área do seu Quadrado é :", areaQuadrado)
+      escreval ( "O perimétro do seu Quadrado é :", perimetroQuadrado)
+
+    caso 2
+      escreval("por favor nos informe a base do triângulo")
+      leia (l1)
+      escreval("por favor nos informe um dos lado do triângulo")
+      leia (l2)
+
+      areaTriangulo <- (l1*l2)/2
+      perimetroTriangulo <- (l1+l2+l2)
+
+      escreval ( "A área do seu Triângulo é :", areaTriangulo)
+      escreval ( "O perimétro do seu Triângulo é :", perimetroTriangulo)
+
+    outrocaso
+      escreval ("Escolha da opção incorreta digite 1- quadrado ou 2 - triângulo")
+fimescolha
+
+Fimalgoritmo
+

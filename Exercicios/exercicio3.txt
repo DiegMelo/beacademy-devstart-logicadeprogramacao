@@ -1,0 +1,27 @@
+Resolução do exercicio 3
+
+Algoritmo "NOME E IDADE"
+
+// Programa que solicita o nome e a idade da pessoa e apresenta vários resultados na tela
+
+Var
+
+nome : caractere
+idade : inteiro
+resto: logico
+Inicio
+
+escreval (" Informe pra gente o seu nome : ")
+leia(nome)
+escreval (" Informe pra gente sua idade : ")
+leia(idade)
+
+resto <- idade%2 = 0
+
+escreval (" Idade é maior que 18 anos ? " , idade>18 )
+escreval (" Idade é diferente de 25 anos ? " , idade<>25)
+escreval (" Idade é diferente de 25 anos e o nome é igual a Marcos? ", (idade<>25) e (nome = "marcos"))
+escreval (" Idade é diferente de 18 anos ou o nome é igual a Marcos? ", (idade<>18) ou (nome = "marcos"))
+escreval (" Idade é divisivel por 2? ", resto)
+
+Fimalgoritmo

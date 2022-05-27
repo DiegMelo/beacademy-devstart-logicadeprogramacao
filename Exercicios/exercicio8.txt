@@ -1,0 +1,35 @@
+Exercicio 8
+
+Algoritmo "as operações aritiméticas"
+
+
+// Programa de teste escolha caso com operações aritiméticas
+Var
+
+num1,num2:real
+operacao:caractere
+
+
+Inicio
+
+   escreval ("informe o primeiro número")
+   leia(num1)
+   escreval ("informe o segundo número")
+   leia(num2)
+   escreval ("informe qual a operação + , - , *, / ?")
+   leia(operacao)
+
+     escolha operacao
+      caso "+"
+        escreval (" A soma dos numeros é:",num1+num2)
+      caso "-"
+        escreval (" A subtração dos numeros é:",num1-num2)
+      caso "*"
+        escreval (" A mutiplicação dos numeros é:",num1*num2)
+      caso "/"
+        escreval (" A divisão dos numeros é:",num1/num2)
+     outrocaso
+        escreval (" Operação informada está incorreta")
+     fimescolha
+
+Fimalgoritmo

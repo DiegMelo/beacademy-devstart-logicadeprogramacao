@@ -1,0 +1,26 @@
+Exercicio 13
+
+Algoritmo "multiplo de 3"
+
+//Programa que exibe o número multiplo de 3 digitando um valor pelo usuário
+
+Var
+
+i,numero1,numero2:inteiro
+
+
+Inicio
+
+   Escreval ("informe o primeiro número?")
+   leia (numero1)
+   Escreval ("informe o segundo número?")
+   leia (numero2)
+
+      para i de numero2 ate numero1 passo i+3 faca
+
+escreval ("Imprima o multiplo de 3 entre o numero ",numero1," e o",numero2," é =",i)
+
+   fimpara
+Fimalgoritmo
+
+   

@@ -1,0 +1,44 @@
+Exercicio 17
+
+Algoritmo " operações aritiméticas com codição enquanto"
+
+// Programa de teste usando a condição "enquanto" com operações aritiméticas
+Var
+
+num1,num2:real
+opcao:inteiro
+
+
+Inicio
+
+   escreval ("informe o primeiro número")
+   leia(num1)
+   escreval ("informe o segundo número")
+   leia(num2)
+
+      escreval (" A soma dos numeros é:",num1+num2)
+      escreval (" A subtração dos numeros é:",num1-num2)
+      escreval (" A mutiplicação dos numeros é:",num1*num2)
+      escreval (" A divisão dos numeros é:",(num1/num2):2:2)
+      escreval
+      escreval ("Você deseja continuar 1 -sim e 2 - não")
+      leia(opcao)
+
+   enquanto opcao = 1 faca
+
+      escreval ("informe o primeiro número")
+      leia(num1)
+      escreval ("informe o segundo número")
+      leia(num2)
+
+      escreval (" A soma dos numeros é:",num1+num2)
+      escreval (" A subtração dos numeros é:",num1-num2)
+      escreval (" A mutiplicação dos numeros é:",num1*num2)
+      escreval (" A divisão dos numeros é:",(num1/num2):2:2)
+      escreval
+      escreval ("Você deseja continuar 1 -sim e 2 - não")
+      leia(opcao)
+
+fimenquanto
+escreval("obrigado por testar nossas operações aritiméticas")
+Fimalgoritmo

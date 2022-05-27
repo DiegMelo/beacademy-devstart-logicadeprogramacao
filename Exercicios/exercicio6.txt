@@ -1,0 +1,27 @@
+Exercicio 6
+
+Algoritmo "Idade da Pessoa"
+
+// Pograma que fala se a pessoa é de menor , adulto ou idoso
+
+Var
+idade :inteiro
+nome :caractere
+
+Inicio
+
+   escreval("informe seu nome:")
+   leia(nome)
+   escreval("informe sua idade:")
+   leia(idade)
+   
+     se (idade < 18) entao
+        escreval(nome," Você é Menor de idade")
+     senao
+     se (idade>=18) e (idade<60) entao
+        escreval(nome," Você é Adulto")
+     senão
+        escreval(nome," Você é Idoso")
+     fimse
+     fimse
+Fimalgoritmo

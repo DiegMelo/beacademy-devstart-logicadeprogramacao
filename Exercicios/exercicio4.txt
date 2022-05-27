@@ -1,0 +1,27 @@
+EXERCICIO 4
+
+Algoritmo "CONTA BANCARIA DEPOSITO"
+
+// Programa que solicita o valor de depósito ao usuário e exibe seu saldo atual
+
+Var
+
+nome : caractere
+deposito,saldo,saldoatual : inteiro
+
+Inicio
+
+escreval (" Informe pra gente o seu nome : ")
+leia(nome)
+escreval (" Qual é seu saldo no banco Sr.(a)?: ",nome)
+leia(saldo)
+escreval (" Qual será seu valor de déposito Sr.(a)?: ",nome)
+leia(deposito)
+
+saldoatual <- saldo+deposito
+
+escreval (" olá Sr.(a)," + nome + " seu saldo antérior foi R$ ",saldo:1:2)
+escreval (" Seu déposito foi de R$ " , deposito:1:2)
+escreval (" Seu saldo atual é R$ ", saldoatual:1:2)
+
+Fimalgoritmo

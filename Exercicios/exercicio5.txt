@@ -1,0 +1,44 @@
+Exercicio 5
+
+Algoritmo "Peso e Altura "
+// Disciplina  Programa que calcula a massa corporia e mostra o resultado com
+// base no seu peso e altura
+Var
+
+peso, altura, imc: real
+nome : caractere
+Inicio
+
+    escreval ("Informe seu nome:")
+    leia (nome)
+    escreval ("Informe sua altura:")
+    leia (altura)
+    escreval ("Informe seu peso:")
+    leia (peso)
+
+    imc <- (altura*peso)/2
+    
+    se (imc <19) entao
+      escreval ("Sr.(a)",nome," infelizmente o Sr.(a) está fora do peso",imc,"Kg")
+      escreval ("Se alimente mais!!!!")
+    senao
+    se (imc>=19)e(imc < 25) entao
+      escreval ("Sr.(a)",nome," felizmente o Sr.(a) está no peso ideal",imc,"Kg")
+      escreval ("continue assim!!!!")
+    senao
+    se (imc>=25)e(imc < 30) entao
+      escreval ("Sr.(a)",nome," infelizmente o Sr.(a) está com sobrepeso",imc,"Kg")
+      escreval ("faça um pequeno regime!!!!")
+    senao
+    se  (imc>=30)e(imc < 40) entao
+      escreval ("Sr.(a)",nome," infelizmente o Sr.(a) está com obesdade TIPO I",imc,"Kg")
+      escreval ("faça um regime rápido!!!!")
+    senao
+     escreval ("Sr.(a)",nome," infelizmente o Sr.(a) está com obesdade MORBIDA",imc,"Kg")
+     escreval ("faça um regime urgente sua vida está em perigo!!!!")
+    fimse
+    fimse
+    fimse
+    fimse
+
+Fimalgoritmo

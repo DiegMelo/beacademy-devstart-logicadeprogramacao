@@ -1,0 +1,18 @@
+Resolução do exercicio 2
+
+Algoritmo "Endereço"
+
+// Programa que solicita o endereço ao usuário
+
+Var
+
+endereco : caractere
+
+Inicio
+
+escreval (" informe pra gente o seu endereço?")
+leia(endereco)
+escreval (" seu endereço é : ", endereco)
+
+
+Fimalgoritmo

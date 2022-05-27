@@ -1,0 +1,26 @@
+Exercicio 26
+
+Algoritmo "Matriz de ordem 3"
+
+// programa que calcula a soma principal e secundária da matriz
+Var
+
+matris :vetor[1..3,1..3] de inteiro
+lin,col,soma_principal,soma_secundaria :inteiro
+
+Inicio
+
+   para lin de 1 ate 3 faca
+   para col de 1 ate 3 faca
+
+      Escreval(" Fale o numero da ",lin,"º linha e da ",col,"º coluna")
+      leia(matris[lin , col])
+
+   fimpara
+   fimpara
+   soma_principal <- matris[1,1]+matris[2,2]+matris[3,3]
+   Soma_secundaria <- matris[1,3]+matris[2,2]+matris[3,1]
+   escreval(soma_principal,soma_secundaria)
+Fimalgoritmo
+
+   

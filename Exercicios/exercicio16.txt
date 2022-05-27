@@ -1,0 +1,34 @@
+Exercicio 16
+
+Algoritmo "nome e senha do banco"
+
+//Programa que confere se o nome e senha estão corretos do pelo usuário
+
+Var
+
+i :inteiro
+nome,senha :caractere
+
+Inicio
+
+   Escreval ("informe o nome do cartão de acesso?")
+   leia (nome)
+   Escreval ("informe a senha do cartão de acesso?")
+   leia (senha)
+
+      enquanto (nome <> "Marcos") e (senha <> "paylivre") faca
+   escreval ("Senha ou nome Informados incorretamente !!")
+   escreval
+   escreval ("Por favor nos informe a senha e o nome novamente!!")
+   escreval
+   Escreval ("informe o nome do cartão de acesso?")
+   leia (nome)
+   Escreval ("informe a senha do cartão de acesso?")
+   leia (senha)
+
+      fimenquanto
+    escreval
+    escreval ("Seja BEM VINDO Marcos!!!")
+Fimalgoritmo
+
+   

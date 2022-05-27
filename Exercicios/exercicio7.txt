@@ -1,0 +1,36 @@
+Exercicio7
+
+Algoritmo "Depósito ou Saque"
+
+// Programa que calcula o depósito ou saque do cliente
+Var
+
+opcao :inteiro
+valor,saldo,total :real
+
+Inicio
+
+     escreval (" O Senhor(a) quer faze 1 - depósito ou 2 - saque?")
+     leia (opcao)
+     escreval (" Qual é seu saldo em conta?")
+     leia (saldo)
+  se (opcao = 1) entao
+     escreval (" Informe o valor de depósito? ")
+     leia (valor)
+
+        total <- saldo + valor
+  senao
+  se (opcao = 2) entao
+     escreval (" Informe o valor de saque? ")
+     leia (valor)
+
+        total <- saldo-valor
+  senao
+     escreval("operacação informada está errada")
+  fimse
+  fimse
+     escreval("A operação escolhida foi: ",opcao)
+     escreval("seu saldo anterior era de R$ " ,saldo:1:2)
+     escreval("seu saldo atual é de R$ " , total:1:2)
+
+Fimalgoritmo

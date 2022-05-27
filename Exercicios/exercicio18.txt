@@ -1,0 +1,127 @@
+Exercicio 18
+
+Algoritmo "Depósito,Saque ,transferência e emprestimo"
+
+
+// Programa que calcula o depósito , saque , tranferência e emprestimo do cliente
+
+Var
+
+banco,agencia,conta :caractere
+operacao,opcao :inteiro
+valor,saldo :real
+
+Inicio
+
+   escreval ("nos informe seu valor de saldo")
+   leia(saldo)
+   escreval (" O Senhor(a) quer fazer 1 - Depósito , 2 - Saque")
+   escreval("3 - transferência ou 4 - emprestimo?")
+   leia (operacao)
+   escreval("Informe o Banco :")
+   leia (banco)
+   escreval("Informe a Agencia sem o digíto:")
+   leia (agencia)
+   escreval("Informe a Conta com o dígito:")
+   leia (conta)
+
+       escolha operacao
+
+    caso 1
+      escreval (" Informe o valor de depósito ? ")
+      leia (valor)
+      escreval("Deposito feito no Banco = ",banco," na agencia = ",agencia," na conta =",conta)
+      escreval("Seu Deposito foi de R$ ",valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo + valor):1:2)
+
+    caso 2
+      escreval (" Informe o valor de saque ? ")
+      leia (valor)
+      escreval("Saque feito no Banco = ",banco," na agencia = ",agencia," na conta =",conta)
+      escreval("Seu Saque foi de R$ ",valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo - valor):1:2)
+    caso 3
+      escreval (" Informe o valor da Transferência? ")
+      leia (valor)
+  // o banco a ser transferido os valores
+      escreval("Você ira tranferir o valor para o  banco = ", banco)
+      escreval("Agencia = "+ agencia + ", conta = ",conta)
+      escreval("Valor de transferencia foi de R$ ", valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu saldo é de R$ ",(saldo-valor):1:2)
+    caso 4
+      escreval (" Informe o valor do Emprestimo? ")
+      leia (valor)
+  // o banco a ser transferido os valores
+      escreval("Você ira pegar emprestado do banco = ", banco)
+      escreval("Agencia = "+ agencia + ", conta = ",conta)
+      escreval("Valor de emprestimo foi de R$ ", valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu saldo é de R$ ",(saldo-valor):1:2)
+
+    outrocaso
+      escreval ("Escolha da opção incorreta digite 1- Deposito ou 2 - Saque ou 3 - Transferência")
+fimescolha
+      escreval ("deseja continuar com a operação 1-sim e 2-não")
+      leia (opcao)
+
+  enquanto opcao = 1 faca
+
+   escreval (" O Senhor(a) quer fazer 1 - Depósito , 2 - Saque")
+   escreval("3 - transferência ou 4 - emprestimo?")
+   leia (operacao)
+   escreval("Informe o Banco :")
+   leia (banco)
+   escreval("Informe a Agencia sem o digíto:")
+   leia (agencia)
+   escreval("Informe a Conta com o dígito:")
+   leia (conta)
+
+      escolha operacao
+
+    caso 1
+      escreval (" Informe o valor de depósito ? ")
+      leia (valor)
+      escreval("Deposito feito no Banco = ",banco," na agencia = ",agencia," na conta =",conta)
+      escreval("Seu Deposito foi de R$ ",valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo + valor):1:2)
+
+    caso 2
+      escreval (" Informe o valor de saque ? ")
+      leia (valor)
+      escreval("Saque feito no Banco = ",banco," na agencia = ",agencia," na conta =",conta)
+      escreval("Seu Saque foi de R$ ",valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu valor em conta atual é de R$ ",(saldo - valor):1:2)
+    caso 3
+      escreval (" Informe o valor da Transferência? ")
+      leia (valor)
+  // o banco a ser transferido os valores
+      escreval("Você ira tranferir o valor para o  banco = ", banco)
+      escreval("Agencia = "+ agencia + ", conta = ",conta)
+      escreval("Valor de transferencia foi de R$ ", valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu saldo é de R$ ",(saldo-valor):1:2)
+    caso 4
+      escreval (" Informe o valor do Emprestimo? ")
+      leia (valor)
+  // o banco a ser emprestado os valores
+      escreval("Você ira pegar emprestado do banco = ", banco)
+      escreval("Agencia = "+ agencia + ", conta = ",conta)
+      escreval("Valor de emprestimo foi de R$ ", valor:1:2)
+      escreval("Seu valor em conta era de R$ ",saldo:1:2)
+      escreval("Seu saldo é de R$ ",(saldo+valor):1:2)
+
+    outrocaso
+      escreval ("Escolha da opção incorreta digite 1- Deposito ou 2 - Saque ou 3 - Transferência")
+
+      fimescolha
+    escreval ("deseja continuar com a operação 1-sim e 2-não")
+    leia (opcao)
+  fimenquanto
+Fimalgoritmo
+
+   

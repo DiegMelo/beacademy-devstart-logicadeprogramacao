@@ -1,0 +1,43 @@
+Exercicio 19
+
+Algoritmo "nome e senha do banco na estrutura repita"
+
+//Programa que confere se o nome e senha estão corretos do pelo usuário
+
+Var
+
+i :inteiro
+nome,senha :caractere
+
+Inicio
+
+   Escreval ("Informe o nome do cartão de acesso?")
+   leia (nome)
+   Escreval ("Informe a senha do cartão de acesso?")
+   leia (senha)
+     se (nome = "Marcos") e (senha = "1234")entao
+   escreval ("Seja bem vindo Marcos!!!")
+     senão
+     repita
+   escreval ("Senha ou nome Informados incorretamente !!")
+   escreval
+   escreval ("Por favor nos informe a senha e o nome novamente ou se preferir digite -1 pra sair")
+   escreval
+   Escreval ("Informe o nome do cartão de acesso?")
+   leia (nome)
+   Escreval ("Informe a senha do cartão de acesso?")
+   leia (senha)
+      se  (nome = "-1") ou (senha = "-1")entao
+      interrompa
+      fimse
+      ate (nome = "Marcos") e (senha = "1234")
+      se  (nome = "-1") ou (senha = "-1")entao
+   escreval("interrompido pelo usuário")
+      senao
+   escreval
+   escreval ("Seja BEM VINDO Marcos!!!")
+      fimse
+      fimse
+Fimalgoritmo
+
+   

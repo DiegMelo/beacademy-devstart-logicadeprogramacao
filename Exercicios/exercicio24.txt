@@ -1,0 +1,36 @@
+Exercicio 24
+
+Algoritmo "Vetor calculo de notas de aluno"
+
+// programa que apresenta os vetores das notas dos alunos
+Var
+
+aluno :vetor[1..10] de caractere
+nota1,nota2,media :vetor[1..10] de real
+i :inteiro
+
+Inicio
+
+   para i de 1 ate 10 faca
+
+      Escreval(" Fale o nome do ",i,"º aluno")
+      leia(aluno[i])
+      escreval(" Digite sua primeira nota")
+      leia(nota1[i])
+      escreval(" Digite sua segunda nota")
+      leia(nota2[i])
+      media[i] <- (nota1[i]+nota2[i])/2
+   fimpara
+
+   para i de 1 ate 10 faca
+     se media[i] >= 6 entao
+        escreval(i," O aluno(a) ",aluno[i], " recebeu a média ",media[i]," ele está: Aprovado ")
+     senão  ("Reprovado")
+        escreval(i," O aluno (a) ",aluno[i], " recebeu a média ",media[i]," ele está: Reprovado ")
+     fimse
+
+   fimpara
+
+Fimalgoritmo
+
+   

@@ -1,0 +1,18 @@
+Exercicio 12
+
+Algoritmo "multiplos de 2 de 0 a 100"
+
+//Programa que exibe multiplos de 2 de o a 100
+
+Var
+
+i :inteiro
+
+Inicio
+
+   para i de 0 ate 100 passo i+2 faca
+
+escreval (i)
+
+   fimpara
+Fimalgoritmo   

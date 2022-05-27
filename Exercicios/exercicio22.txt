@@ -1,0 +1,35 @@
+Exercicio 22
+
+Algoritmo "Saques do cliente até valor posito"
+
+// programa que apresenta saques que o cliente faz para não deixar o saldo negativo
+Var
+
+saldo,resultado,opcao :inteiro
+
+
+Inicio
+      Escreval(" Seu Saldo é de R$ 1000,00")
+      escreval(" O Senhor que fazer um saque de R$ 150,00?")
+      escreval(" 1-Sim e 2-Não")
+      leia(opcao)
+      se opcao = 1 entao
+        saldo <- 1000
+      repita
+        saldo <- saldo-150
+        resultado <- saldo
+      escreval("o seu saldo é :",resultado:1:2)
+      escreval(" O Senhor que fazer mais um saque de R$ 150,00?")
+      escreval(" 1-Sim e 2-Não")
+      leia(opcao)
+        saldo <-saldo-150
+      ate saldo <= 100
+      senao
+      escreval("obrigado por usar nossos serviços")
+      fimse
+      se (saldo <= 100) e (opcao <> 2) entao
+      escreval("Desculpe você não possui mais saldo suficiente para saque !!")
+      fimse
+Fimalgoritmo
+
+   
