@@ -52,16 +52,4 @@
 
 [Exercicio26- Matriz de ordem 3](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio26.txt)
 
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
-[Exercicio1- troca do pneu](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/exercicio1.txt)
+[Exercicio27- Matriz somatório de linha e coluna](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio27.txt)
