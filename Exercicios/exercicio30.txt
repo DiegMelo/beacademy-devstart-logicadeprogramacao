@@ -25,7 +25,7 @@ senao
 se (salario > 1212) e (salario <= 2427.35) entao
 
         salario_liquido <- salario/1.09
-        desconto <- salario*0.09
+        desconto <- salario*0.009
    escreval(" Seu salário Bruto é R$ ", salario:1:2)
    escreval(" Seu Desconto foi R$ ",desconto:1:2)
    escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
@@ -33,7 +33,7 @@ senao
 se (salario > 2427.35) e (salario <= 3641.03) entao
 
         salario_liquido <- salario/1.12
-        desconto <- salario*0.12
+        desconto <- salario*0.012
    escreval(" Seu salário Bruto é R$ ", salario:1:2)
    escreval(" Seu Desconto foi R$ ",desconto:1:2)
    escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
@@ -41,7 +41,7 @@ senao
 se (salario > 3641.03) e (salario <= 7087.22) entao
 
         salario_liquido <- salario/1.14
-        desconto <- salario*0.14
+        desconto <- salario*0.014
    escreval(" Seu salário Bruto é R$ ", salario:1:2)
    escreval(" Seu Desconto foi R$ ",desconto:1:2)
    escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
