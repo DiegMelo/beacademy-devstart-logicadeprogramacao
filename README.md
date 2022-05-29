@@ -44,7 +44,7 @@
 
 [Exemplo -22- Saque até valor positivo(Usando SE e Repeat)](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio22.txt)
 
-[Exemplo -23- Vetor de Produto e Preço](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio23.txt)
+[Exemplo -23- Produto e Preços (Usando Arrays)](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio23.txt)
 
 [Exemplo -24- Calculo de Notas, Alunos (Usando Se, For e Arrays)](https://github.com/DiegMelo/beacademy-devstart-logicadeprogramacao/blob/main/Exercicios/exercicio24.txt)
 
