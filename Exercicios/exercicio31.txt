@@ -1,0 +1,62 @@
+Exercicio 31
+
+Algoritmo "Salário e IRPF"
+
+// programa que apresenta de acordo com o salário seu IRPF
+
+Var
+
+   salario,desconto,salario_liquido :real
+
+Inicio
+
+   escreval(" Por favor nos informe seu salario para aplicar o desconto de contribuição")
+   leia(salario)
+
+se salario < 1903.98 entao
+
+   escreval(" Seu salário Bruto é R$ ", salario:1:2)
+   escreval(" Seu imposto de renda é R$ isento")
+   escreval(" Seu salário final com desconto foi de R$ ",salario:1:2)
+
+senao
+se (salario > 1903.98) e (salario <= 2826.65) entao
+
+        desconto <- 142.80
+        salario_liquido <- salario-desconto
+
+   escreval(" Seu salário Bruto é R$ ", salario:1:2)
+   escreval(" Seu imposto de renda é R$ ",desconto:1:2)
+   escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
+senao
+se (salario > 2826.65) e (salario <= 3751.05) entao
+
+        desconto <- 354.80
+        salario_liquido <- salario-desconto
+
+   escreval(" Seu salário Bruto é R$ ", salario:1:2)
+   escreval(" Seu imposto de renda é R$ ",desconto:1:2)
+   escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
+senao
+se (salario > 3751.05) e (salario <= 4664.68) entao
+
+        desconto <- 636.13
+        salario_liquido <- salario-desconto
+
+   escreval(" Seu salário Bruto é R$ ", salario:1:2)
+   escreval(" Seu imposto de renda é R$ ",desconto:1:2)
+   escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
+senao
+        desconto <- 869.36
+        salario_liquido <- salario-desconto
+
+   escreval(" Seu salário Bruto é R$ ", salario:1:2)
+   escreval(" Seu imposto de renda é R$ ",desconto:1:2)
+   escreval(" Seu salário final com desconto foi de R$ ",salario_liquido:1:2)
+
+fimse
+fimse
+fimse
+fimse
+
+Fimalgoritmo

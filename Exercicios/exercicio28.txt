@@ -1,0 +1,37 @@
+Exercicio 28
+
+Algoritmo "Juros Financiamento"
+
+// programa que calcula o juros do financiamento de 2 e 3 parcelas
+
+Var
+
+   financiamento,parcelas,total_parcelas :real
+   opcao :inteiro
+Inicio
+
+   escreval(" Por favor escolha seu financeamento se será em 2 ou 3 parcelas?")
+   leia (opcao)
+   escreval(" Qual o valor da sua parcela?")
+   leia (parcelas)
+
+escolha opcao
+
+caso 2
+      financiamento <- parcelas*1.02
+      total_parcelas <-financiamento*2
+   escreval("Sua parcela com juros do financiamento é de R$ ",financiamento:1:2)
+   escreval("Seu total de parcelas com juros do financiamento é de R$ ",total_parcelas:1:2)
+
+caso 3
+      financiamento <- parcelas*1.03
+      total_parcelas <-financiamento*3
+   escreval("Sua parcela com juros do financiamento é de R$ ",financiamento:1:2)
+   escreval("Seu total de parcelas com juros do financiamento é de R$ ",total_parcelas:1:2)
+outrocaso
+   escreval("Escolha da opçao inválida !!!")
+
+fimescolha
+   escreval("Obrigado por comprar conosco!!")
+
+Fimalgoritmo

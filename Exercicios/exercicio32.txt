@@ -1,0 +1,139 @@
+Exercicio 32
+
+Algoritmo "Operacção de IOF"
+
+// programa que apresenta de acordo com o salário seu IRPF
+
+Var
+
+   multa,juros,valor,cheque_espc,op_cambio,financ,cartao_cre,cartao_pre,seg_auto :real
+   i,opcao:inteiro
+
+Inicio
+
+
+   escreval(" Por favor nos informe sua operação de IOF para realizarmos o calculo:")
+   escreval("1 - Cheque Especial, 2 - Operação de Cambio, 3 - Financiamento")
+   Escreval("4 - Juros do Cartão de Credito, 5 - Cartão Pré Pago, 6 - Seguro Automovel")
+   leia(i)
+   escreval("por favor nos informe o valor da sua parcela para o calculo do IOF")
+   leia(valor)
+
+escolha i
+
+caso 1
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Cheque Especial")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 2
+        juros <- valor*0.0038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Operação de Câmbio")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 3
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Financiamento")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+
+caso 4
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Juros do Cartão de Credito")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 5
+        juros <- valor*0.06038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Cartão Pré-Pago")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 6
+        juros <- valor*0.07038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Seguro Automovel")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+outrocaso
+   escreval("Escolha da opção incorreta, por favor escolha uma das opções abaixo")
+fimescolha
+
+   escreval("você deseja continuar com mais alguma operação? 1 - Sim e 2 - Não")
+   leia(opcao)
+
+repita
+
+   escreval(" Por favor nos informe sua operação de IOF para realizarmos o calculo:")
+   escreval("1 - Cheque Especial, 2 - Operação de Cambio, 3 - Financiamento")
+   Escreval("4 - Juros do Cartão de Credito, 5 - Cartão Pré Pago, 6 - Seguro Automovel")
+   leia(i)
+   escreval("por favor nos informe o valor da sua parcela para o calculo do IOF")
+   leia(valor)
+
+escolha i
+
+caso 1
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Cheque Especial")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 2
+        juros <- valor*0.0038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Operação de Câmbio")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 3
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Financiamento")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+
+caso 4
+        juros <- valor*0.0053
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Juros do Cartão de Credito")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 5
+        juros <- valor*0.06038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Cartão Pré-Pago")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+caso 6
+        juros <- valor*0.07038
+        multa <- valor + juros
+   escreval(" A operação escolhida foi Seguro Automovel")
+   escreval(" O seu IOF foi de R$ ",juros:1:2)
+   escreval(" O valor a ser pago esse mês é de R$ ",multa:1:2)
+
+outrocaso
+   escreval("Escolha da opção incorreta, por favor escolha uma das opções abaixo")
+fimescolha
+
+   escreval("você deseja continuar com mais alguma operação? 1 - Sim e 2 - Não")
+   leia(opcao)
+
+ate opcao = 2
+
+escreval("Obrigado por usar nossos serviços!!!")
+
+Fimalgoritmo

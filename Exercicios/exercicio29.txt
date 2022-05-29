@@ -1,0 +1,34 @@
+Exercicio 28
+
+Algoritmo "Área e perimeto do circulo"
+
+// programa que apresenta o Raio, perimetro e área do Circulo
+
+Var
+
+   raio,perimetro,area :real
+   opcao :inteiro
+Inicio
+
+
+   escreval(" Por favor nos informe o Raio do circulo para lhe informar o perimetro e area do mesmo?")
+   leia (raio)
+
+        area <- pi*raio*raio
+        perimetro <- 2*pi*raio
+
+se raio < 0 entao
+enquanto raio < 0 faca
+
+   escreval(" Foi informado um numero negativo, por favor nos informe um positivo")
+   escreval
+   escreval(" Por favor nos informe o Raio do circulo para lhe informar o perimetro e area do mesmo?")
+   leia (raio)
+
+        area <- pi*raio*raio
+        perimetro <- 2*pi*raio
+fimenquanto
+fimse
+   escreval("O Raio do Circulo é: ",raio,"m e a area: ",area:1:2,"m² e seu perimetro: ",perimetro:1:2,"m")
+-
+Fimalgoritmo
